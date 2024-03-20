@@ -92,6 +92,7 @@ class Chroma(nn.Module):
             verbose=False,
         ).eval()
 
+    # O(N) for each layer
     def sample(
         self,
         # Backbone Args

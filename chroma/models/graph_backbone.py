@@ -27,7 +27,10 @@ from chroma.layers.structure import backbone, diffusion, transforms
 from chroma.models.graph_design import BackboneEncoderGNN
 from chroma.utility.model import load_model as utility_load_model
 
-
+# N: The number of integration steps in the diffusion process
+# V: The number of vertices (as each vertex represents part of the protein structure that is being diffused)
+# D: The complexity of computing the diffusion and reverse diffusion steps, which often scales with the size of the data point (e.g., the dimensionality of the protein structure representation)
+# O(NVD)
 class GraphBackbone(nn.Module):
     """Graph-based backbone generation for protein complexes.
 

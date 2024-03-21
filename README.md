@@ -1,5 +1,9 @@
 # My annotations on Chroma's code- every business's scalability is bounded by its computational cost (Renaissance Technologies, Google, Standard Oil, Tesla, etc). How scalable is their algorithm?
 
+## Notes
+- the entire NN is executed to predict 1 protein
+- they are compiling amino acids to make proteins
+
 <img src="assets/chroma_logo_outline.svg" width="280">
 
 [**Get Started**](#get-started)

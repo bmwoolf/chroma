@@ -1,3 +1,5 @@
+# My annotations on Chroma's code- every business's scalability is bounded by its computational cost (Renaissance Technologies, Google, Standard Oil, Tesla, etc). How scalable is their algorithm?
+
 <img src="assets/chroma_logo_outline.svg" width="280">
 
 [**Get Started**](#get-started)

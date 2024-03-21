@@ -37,7 +37,6 @@ from chroma.layers.structure.protein_graph_allatom import (
 from chroma.utility.model import load_model as utility_load_model
 
 # L: Number of layers in the NN, processing all nodes and all edges
-    # what are the nodes in this? the individual molecules?
 # E: Number of edges in the in the graph representing the protein structure
     # is this entire NN executed for one protein?
 # D: Feature dimension. For each additional dimension, the complexity increases ^N
